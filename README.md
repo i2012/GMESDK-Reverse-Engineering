@@ -139,6 +139,8 @@ __int64 GMEWWisePlugin_SetAudioStreamProfile_0(unsigned int a1) {
 | 5 | host | (全部) | 48000/64/0/0/2ch | 不变 | 原始已为高质量 |
 | 6 | audience | (全部) | 48000/64/0/0/2ch | 不变 | 原始已为高质量 |
 
+都是保守值, 更高采样率、码率可以自行尝试 (过高的数值会增加服务器与用户设备的负担)
+
 ### 编解码器
 SDK 使用两种编解码器：
 - **SILK** (codec_prof: 4106, 4108) — Skype 开发的语音编解码器，低码率下语音质量优秀
